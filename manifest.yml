@@ -1,0 +1,8 @@
+applications:
+- name: website-main
+  disk_quota: 512M
+  instances: 1
+  memory: 128M
+  routes:
+  - route: website-main.cfapps.io
+  stack: cflinuxfs3
