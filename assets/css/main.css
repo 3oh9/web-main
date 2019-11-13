@@ -3404,7 +3404,7 @@
 		background: rgba(0, 0, 0, 0.75);
 		color: #aed6f1;
 		cursor: default;
-		height: 3.25em;
+		height: 4.25em;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
@@ -3424,6 +3424,9 @@
 			position: absolute;
 			top: 0;
 		}
+		    #header > .logo img {
+		       width: 3.25em;
+		    }
 
 			#header > .logo a {
 				font-size: 1.25em;
